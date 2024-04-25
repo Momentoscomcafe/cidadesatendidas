@@ -1,0 +1,118 @@
+# Lista de cidades por estado
+cidades_por_estado = {
+    	"Acre": [],
+	"Alagoas": [],
+	"Amapá": [],
+	"Amazonas": [],
+	"Bahia": ["Gentio do Ouro", "Xique-Xique", "Ipupiara", "Irecê", "Barreiras", "Feira de Santana", "Alagoinhas", "Serrinha", "Itaberaba", "Ipira", "Santo Estevão", 
+"Capim Grosso", "Santo Antônio de Jesus", "Riachão do Jacuípe", "Senhor do Bonfim", "Conceição do Coité", "Valente", "Luís Eduardo Magalhães", "Ribeira do Pombal", "Salvador",
+"Lauro de Freitas", "Abrantes", "Jauá", "Arembepe", "Guarajuba", "Campos", "Jacuípe"],
+	"Ceará": ["Fortaleza", "São Gonçalo do Amarante", "Caucaia", "Maracanaú", "Maranguape", "Eusébio", 
+"Pacatuba", "Itaitinga", "Aquiraz", "Guaiúba", "Horizonte", "Pindoretama", "Pacajus", "Cascavel", "Chorozinho", "Guaramiranga", "Jericoacoara", "Juazeiro do Norte", "Crato", 
+"Barbalha", "Missão Velha", "Brejo Santo", "Milagres", "Farias Brito", "Caririaçu"],
+	"Distrito Federal": ["Brasília"],
+	"Espírito Santo": ["Vila Velha", "Serra", "Fundão", "Santa Teresa", "Santa Maria de Jetibá", "Castelo", 
+"Conceição do Castelo", "Venda Nova do Imigrante", "Vitória", "Viana", "Marechal Floriano", "Santa Maria de Jetibá", "Afonso Cláudio", "Alfredo Chaves", "Colatina", "Baixo Guandu", 
+"Marilândia", "Governador Lindenberg", "Pancas", "Alto Rio Novo", "Mantenópolis", "Águia Branca", "São Domingos do Norte", "Vila Valério", "Barra São Francisco", "Montanha", "Ponto Belo", 
+"Mucurici", "Ecoporanga", "Nova Venécia", "Vila Pavão", "Água doce do Norte", "Boa Esperança", "Pedro Canário", "São Mateus", "Conceição da Barra", "Itaúnas"],
+	"Goiás": ["Goiania",
+"Caldas Novas", "Valparaiso de Goias", "Luziania", "Anápolis", "Abadiânia", "Goianápolis", "Pirenópolis", "Senador Canedo", "Morrinhos", "Rio Quente", "Goiatuba", "Itumbiara", 
+"Cassilândia", "Inocência", "Aporé", "Itajá", "Lagoa Santa"],
+	"Maranhão": ["São Luís", "São Mateus", "Imperatriz"],
+	"Mato Grosso": ["Rondonópolis", "Cuiabá", "Chapada dos Guimarães", "Campo Verde", "Primavera", "Tangará da Serra", 
+"Campo Novo", "Brasnorte", "Juína", "Juara castanheira", "Colniza", "Aripuanã", "Juruena", "Tabaporã", "Porto dos gaúchos", "Água Boa", "Canarana", "Nova Xavantina", "Barra do Garças"],
+	"Mato Grosso do Sul": ["Cassilândia", "Inocência", "Paranaíba", "Aporé", "Itajá", "Lagoa Santa", "Campo Grande"],
+	"Minas Gerais": ["Simão Pereira", "Santos Dumont", "Ewbank da Câmara", "Belmiro Braga", "São José das três ilhas", "Juiz de Fora", "Cataguases", 
+"Piau", "Leopoldina", "Manhuaçu", "Reduto", "Carangola", "São João Del Rei", "Conceição da Barra", "Nazareno", "Tiradentes", "Lavras", "Lagoa Dourada", "Prados", "Ritápolis", 
+"Bom Sucesso", "Barroso", "Madre de Deus", "Coronel Xavier Chaves", "Santa Cruz de Minas", "São Tiago", "Resende Costa", "Varginha", "Três Pontas", "Guaxupé", "Machado", "Piumhi", 
+"Monte Verde", "Extrema", "Ouro Fino", "Boa Esperança", "São Thomé das Letras", "Andradas", "São Sebastião do Paraíso", "Gonçalves", "Uberaba", "Araguari", "Belo Horizonte", "Lima", 
+"Ibirité", "Sabará", "Nova Lima", "Ouro Preto", "Ouro Branco", "Congonhas", "Conselheiro Lafaeite", "Mariana", "Vazante", "Patos de Minas", "Lagoa Formosa", "Arapuá", "Carmo do Paranaíba", 
+"Rio Paranaíba", "São Gotardo", "Tiros", "Matutina", "Ibiá", "Araxá", "Campos Altos", "Pratinha", "Bambuí", "Medeiros", "Serra do Salitre", "Salitre de Minas", "Cruzeiros da Fortaleza", 
+"Guimarânia", "Santa Rosa da Serra", "Tapiraí", "Quintino", "Major Porto", "Tapira", "Presidente Olegário", "Lagamar", "Monte Carmelo", "Coromandel", "Patrocínio", "Betim", 
+"Santa Bárbara", "João Monlevade", "São Gonçalo do Rio Abaixo", "Itabira", "Bom Jesus do Amparo", "Barão de Cocais", "Caeté", "Catas Altas", "Viçosa", "Itabirito", "Itaúna", "Itatiaiuçu", 
+"Pará de Minas", "Esmeraldas", "Itaguara", "Igarapé", "São Joaquim de Bicas", "Crucilândia", "Mateus Leme", "Carmópolis de Minas", "Mário Campos", "Sarzedo", "Juatuba", "Brumadinho", 
+"Bonfim", "Rio Manso", "Serra Azul", "Conceição de Itaguá", "Nova Serrana", "Conceição do Pará", "Bom Despacho", "Divinópolis", "Barbacena", "Poços de Caldas", "Dores de Campos", 
+"Três Corações", "Baependi", "Caxambu", "Carrancas", "Oliveira", "Aiuruoca", "Pouso Alto", "Itanhandu", "Dores do Campos", "Itajubá", "Piranguinho", "Maria da fé", "Pedralva", 
+"São José do Alegre", "Santa Rita do Sapucaí", "Cachoeira de Minas", "Congonhal", "Careaçu", "Paraisópolis", "Cruzília", "Lambari", "Passa Quatro", "Itamonte", "Cambuquira", "Manhumirim", 
+"Alto Jequitibá", "Caparaó", "Alto Caparaó", "São Lourenço", "Soledade de Minas", "Dom Viçoso", "Cristina", "Carmo de Minas", "Brasópolis", "Olímpio Noronha", "Jesuânia", "Pitangui", 
+"Jacutinga", "Monte Sião", "Alagoa", "São Sebastião do Rio Verde", "Carangola"],
+	"Pará": [],
+	"Paraíba": ["João Pessoa"],
+	"Paraná": ["Umuarama", "Pontal do Paraná", "Matinhos", "Paranaguá", "Antonina", "Ilha do Mel", "Laranjeiras do Sul", "Almirante Tamandaré", "Campo Magro", "Itaperuçu", 
+"Rio Branco do Sul", "Quatro Barras", "Campina Grande do Sul", "Londrina", "Maringá", "Cambé", "Jataizinho", "Do Paraíso", "Prado Ferreira", "Primeiro De Maio", "Ibiporã", "Arapongas", 
+"Apucarana", "Assaí", "Uraí", "Rolândia", "Sertanópolis", "Rancho Alegre", "Sabáudia", "Foz do Iguaçu", "Santa Terezinha de Itaipu", "São Miguel do Iguaçu", "Medianeira", "Matelândia", 
+"Ramilândia", "Serranópolis do Iguaçu", "Vera Cruz do Oeste", "Céu Azul", "Santa Tereza do Oeste", "Cascavel", "Curitiba", "São José dos Pinhais", "Marechal Cândido Rondon", "Pato Bragado", 
+"Nova Santa Rosa", "Mercedes", "Entre Rios do Oeste", "Quatro Pontes", "Santa Helena", "Toledo", "Maripá", "Terra Roxa", "Palotina"],
+	"Pernambuco": ["Recife", "Olinda", "Jaboatão dos Guararapes", "Cabo de Santo Agostinho", "Ipojuca", "Porto de Galinhas", "Petrolina", "Pesqueira", "Belo Jardim", "Tupanatinga", "Arcoverde", "Buíque"],
+	"Piauí": [],
+	"Rio de Janeiro": ["Rio de Janeiro", "Vila da Penha", "Vila Kosmos", "Vicente de Carvalho", "Iguaba Grande", "São Pedro da Aldeia", "Itaboraí", "Rio Bonito", "Maricá", "Macaé", "Rio das Ostras", 
+"Trajano de Moraes", "Silva Jardim", "Casimiro de Abreu", "Conceição de Macabu", "Carapebus", "Quissamã", "Campos dos Goytacazes", "São João da Barra", "Petrópolis", "Nova Friburgo", "Teresópolis",
+"Angra dos Reis", "Ilha Grande", "Belford Roxo", "Nilópolis", "Mesquita", "São João de Meriti", "Pavuna", "Vale do Café", "Bananal", "Vassouras", "Barra do Piraí", "Valença", "Mendes", "Paracambi", 
+"Paulo de Frontim", "Paty do Alferes", "Avelar", "Miguel Pereira", "Queimados", "Itaguaí", "Penedo", "Itatiaia", "Visconde de Mauá", "Maromba", "Resende", "Nova Iguaçu", "Niterói"],
+	"Rio Grande do Norte": ["Apodi", "Felipe Guerra", "Itaú", "Severiano Melo", "Rodolfo Fernandes", "Caraúbas", "Umarizal", "Natal", "Ponta Negra", "Petrópolis", "Tirol"],
+	"Rio Grande do Sul": ["Cachoeira do Sul", "Erechim", "Dois Irmãos", "Morro Reuter", "Ivoti", "Presidente Lucena", "Picada Café", "Sapiranga", "Viamópolis", "Santa Isabel", "Centro", 
+"Caxias do Sul", "Taquaruçu do Sul", "Palmitinho", "Vista Alegre", "Oswaldo Cruz", "Frederico Westphalen", "São Cristóvão", "Passo Fundo", "Novo Hamburgo", "Estância Velha", "Campo Bom", "Bagé", 
+"Dom Pedrito", "Aceguá", "Hulha Negra", "Candiota", "Pinheiro Machado", "Guaíba", "Eldorado do Sul", "Gramado", "Canela", "Igrejinha", "Três Coroas", "Pelotas", "Rio Grande", "São Lourenço do Sul"],
+	"Rondônia": [],
+	"Roraima": [],
+	"Santa Catarina": ["Itapua", "Turvo", "Sombrio", "Balneário Gaivota", "Jacinto Machado", "Meleiro", "Araranguá", "Cocal do Sul", "Urussanga", "Nova Veneza", "Içara", "Criciúma", "Chapecó", 
+"Pinhalzinho", "Coronel Freitas", "Xaxim", "Xanxere", "Maravilha", "São Miguel do Oeste", "São Lourenço do Oeste", "Iraceminha", "Modriloo", "Nonoai", "Cordilheira Alta", "Ponte serrada", "Seara", 
+"Faxinal dos Guedes", "Timbó", "Rio dos Cedros", "Rodeio Ascurra", "Benedito Novo", "Apiúna", "Doutor Pedrinho", "Joinville", "Mafra", "Rio Negrinho", "São Bento do Sul", "Campo Alegre", "Garuva", 
+"Araquari", "São Francisco do Sul", "Balneário Barra do Sul", "Florianópolis", "Palhoça", "São José", "Brusque", "Gaspar", "São João Batista", "Nova Trento", "Guabiruba", "Canelinha", "Canoinhas", 
+"Curitibanos", "Itaiópolis", "Papanduva", "Monte Castelo", "Maj Vieira", "Bela Avista Do Toldo", "Três Barras", "São Mateus Do Sul", "Irineópolis", "Porto União", "Cruz Machado", "União da Vitória", 
+"Lages", "Urubici", "Piratuba", "São Joaquim", "Rio Negro", "Biturina", "Santa Cecília", "Santa Teresinha", "São Cristóvão do Sul", "Correia Pinto", "Otacilio Costa", "Fraiburgo", "Taió", "Rio Do Sul", 
+"Ituporanga", "Pouso Redondo", "Miriam Doce", "Salete", "Ibirama", "Anta Gorda", "Lontras", "Getúlio", "Witmarsum", "Dona Elma", "Agronômica", "Rio do Campo", "Vitor Meireles", "José Boiteux", "Trombudo Central", 
+"Braço do Trombudo", "Agrolândia", "Atalanta", "Petrolândia", "Aurora", "Presidente Nereu", "Vidal Ramos", "Imbuí", "Chapadão do Lageado"],
+	"São Paulo": ["Praia Grande", "Presidente Prudente", "Guaratinguetá", "Lorena", "Aparecida", "Araras", "Conchal", "Matão", "Olímpia", "Boituva", "Lagoinha", "São Luís do Paraitinga", "Silveiras", 
+"São José de Barreira", "Cunha", "Areias", "São Bento do Sapucaí", "Serra Negra", "Cajati", "Jacupiranga", "Registro", "Pariquera Açu", "Sete Barras", "Juquiá", "Miracatu", "Barra do Turvo", "Eldorado", "Cananeia", 
+"Iguape", "Ilha Comprida", "Mogi Guaçu", "Jardim Serra Dourada", "Vila Ricce", "Areião", "Centro", "Jardim Centenário", "Altos dos Ipês", "Taquaritinga", "Jaboticabal", "Monte Alto", "Barrinhas", "Sertãozinho",
+"Praia Grande", "Vila Antártida", "Tupi", "Guilhermina", "São José do Rio Preto", "São José do Rio Preto", "Catanduva", "Potirendaba", "Araçatuba", "Fernandópolis", "Votuporanga", "Potirendaba", "Ibirá", "São Roque", 
+"Barueri", "São Roque", "Ibiuna", "Itu", "Cabreúva", "Salto", "Santana do Parnaiba", "Alphaville", "Jundiaí", "Várzea Paulista", "Francisco Morato", "Francisco Rocha", "Caieiras", "Perus", "Aterro Bandeirantes", 
+"Anhanguera", "Sorocaba", "Votorantim", "Araçoiaba da Serra", "Aracoiabinha", "Salto de Pirapora", "Brg Tobias", "Alumínio", "Mairinque", "Piedade", "Cocais", "Canseira", "Novo", "Mailasqui", "Vargem Grande Paulista", 
+"Cotia", "Itapevi", "Jandira", "Carapicuíba", "Osasco", "Ilha Bela", "São Sebastião", "São José dos Campos", "Taubaté", "Jacareí", "Pindamonhangaba", "Roseira", "Cruzeiro", "Campos do Jordão", "São Sebastião", 
+"Ilha Bela", "Caçapava", "Eugenio de melo", "Galo branco", "Jardim Itapuã", "Caçapava", "Sumaré", "Paulínia", "Nova Odessa", "São Carlos", "Ibaté", "Ubatuba", "Centro", "Diadema", "Peruíbe", "Pinheiros", 
+"Vila Madalena", "Praia Grande", "Diadema", "Centro", "Serraria", "Eldorado", "Mongaguá", "São Bernardo do Campo", "São Bernardo do Campo", "Rio das Pedras", "Piracicaba", "Mombuca", "Saltinho", "Arraial", 
+"São Bento", "Capivari", "Ribeirão Preto", "Brotas", "Araraquara", "Brotas", "Jaú", "São Pedro", "Águas de São Pedro", "Torrinha", "Barra Bonita", "Indaiatuba", "Itupeva", "Vinhedo", "Louveira", "Americana", 
+"Campinas", "Bauru", "Santos", "São Paulo"],
+	"Sergipe": [],
+	"Tocantins": ["Palmas", "Paraiso de Tocantins"],
+    # Adicione mais estados e cidades conforme necessário
+}
+
+# Função para verificar se a cidade está cadastrada no estado fornecido
+def verificar_cidade(estado, cidade):
+    # Converte o estado e a cidade para minúsculas para evitar diferenciação de maiúsculas/minúsculas
+    estado = estado.lower()
+    cidade = cidade.lower()
+    
+    # Verifica se o estado está na lista de estados
+    if estado in cidades_por_estado:
+        # Verifica se a cidade está na lista de cidades do estado fornecido
+        if cidade in cidades_por_estado[estado]:
+            return "Cidade não atendida. Favor entrar em contato pelo nosso WhatsApp."
+        else:
+            return "Cidade atendida. Peça seu creme de café hoje mesmo!"
+    else:
+        return "Estado não encontrado."
+
+# Programa principal
+def main():
+    # Texto de instruções para o usuário
+    instrucoes = "Por favor, preencha os seguintes campos:\n"
+    instrucoes += "1. Estado: Digite o nome do seu estado.\n"
+    instrucoes += "2. Cidade: Digite o nome da sua cidade.\n"
+    print(instrucoes)
+    
+    # Entrada do usuário para o estado e a cidade
+    estado = input("Digite o nome do estado: ")
+    cidade = input("Digite o nome da cidade: ")
+    
+    # Verifica se a cidade está cadastrada no estado fornecido
+    resultado = verificar_cidade(estado, cidade)
+    
+    # Exibe o resultado
+    print(resultado)
+
+# Chamada da função principal
+if __name__ == "__main__":
+    main()
